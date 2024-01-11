@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+
+
+.main{
+    background-image: url(asset/images/bgimage.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:max(1200px, 100vw);
+    height: 80vh;
+    position: relative;
+}
+.main .box{
+    position: absolute;
+    top: 0;
+    height: 80vh;
+    background-color: black;
+    opacity: 0.6;
+    width: 100%;
+}
+nav{
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+}
+nav img{
+    color: red;
+    width: 120px;
+    z-index: 10;
+    position: relative;
+}
+nav button{
+    z-index: 10;
+    position: relative;
+}
+.hero{
+    font-family: 'Martel Sans', sans-serif;
+    height:calc( 100% - 65px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+    gap: 20px;
+    padding: 0px 30px;
+}
+.hero> :first-child{
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+.sepration{
+    background-color:#232323;
+    height: 5px;
+}
+.btn-gs{
+    background-color: red;
+    color:white;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 7px;
+    border: none;
+}
+.btn-gs:hover{
+    background-color: rgb(221, 54, 54);
+    color:white;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 7px;
+    border: none;
+}
+.btn-sign{
+    background-color: red;
+    color: white;
+    padding: 5px 7px;
+    margin-left: 10px;
+    border-radius: 8px;
+    border: none;
+}
+.btn-sign:hover{
+    background-color: rgb(176, 5, 5);
+    color: white;
+    padding: 5px 7px;
+    margin-left: 10px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.btn-lang{
+    color: rgb(216, 206, 206);
+    background-color: transparent;
+    border: none;
+}
+input[type='text']{
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 7px;
+    padding: 8px;
+    margin: 2px 10px;
+}
+
+/* section suru */
+.first{
+    display: flex;
+    justify-content: space-between;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+    padding: 60px 10px;
+}
+.secimg1
+{
+    position: relative;
+}
+.secimg1 img{
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+    
+}
+.secimg1 video{
+    position: absolute;
+    right: 43px;
+    top: 70px;
+    width: 344px;
+    
+}
+
+.sechead{
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    /* font-family: 'Martel Sans', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.secmes{
+font-size: x-large;
+color: white;
+}
+
+
+
+.correction{
+    background-color: black;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+    padding: 60px 10px;
+}
+
+.secimg img{
+    width: 400px;
+}
+.faqbox:hover{
+     background-color: rgb(103, 101, 101);
+}
+.faqbox{
+    display: flex;
+    background-color:#2d2d2d;
+    width: 60vw;
+    margin:  14px auto;
+    padding: 14px 30px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.plus{
+    color: white;
+}
+.faqsec{
+    margin:40px;
+}
+.lastemail{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 35px;
+    
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 70vw;
+    margin: auto;
+    color: rgb(208, 205, 205);
+    align-items: center;
+    justify-content: center;
+}
+.foot{
+    margin: 50px 10px;
+    padding: 10px 10px;
+
+
+}
+.foot li{
+    list-style: none;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 30px;
+    cursor: pointer;
+}
+.foot li:hover{
+    color: rgb(154, 150, 150);
+}
