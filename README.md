@@ -1,1 +1,1 @@
-This is the netflic clone made using only HTML and CSS
+This is the NETFLIX clone made using only HTML and CSS
